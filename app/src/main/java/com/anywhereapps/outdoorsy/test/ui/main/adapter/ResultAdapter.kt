@@ -52,13 +52,8 @@ class ResultAdapter(private var result: Result?) : RecyclerView.Adapter<ResultVi
 
     fun getImageUrl(sid : String) : String
     {
-//        val index = result?.included?.indexOfFirst{
-//            it.id == sid
-//        }
-
         val item = result?.included?.find { it.id == sid }
         return item?.attributes?.url  ?: ""
-      //  return index?.let { result?.included?.get(it)?.attributes?.url } ?: ""
     }
 
 }
