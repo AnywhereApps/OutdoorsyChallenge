@@ -22,15 +22,12 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-
-    private lateinit var layout: View
     private lateinit var viewModel: MainViewModel
     private lateinit var adapter: ResultAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        layout = findViewById(R.id.main_layout)
         setupViewModel()
         setupUI()
 
