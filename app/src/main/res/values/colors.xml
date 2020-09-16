@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#35761D</color>
+    <color name="colorPrimaryDark">#244E1C</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="fade_start_color">#00000000</color>
+    <color name="fade_center_color">#4f000000</color>
+    <color name="fade_end_color">#ff000000</color>
+    <color name="white">#ffffff</color>
+</resources>

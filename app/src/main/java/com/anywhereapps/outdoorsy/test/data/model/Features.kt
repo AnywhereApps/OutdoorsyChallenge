@@ -1,0 +1,63 @@
+package com.anywhereapps.outdoorsy.test.data.model
+
+
+import kotlinx.android.parcel.Parcelize
+import android.os.Parcelable
+
+
+@Parcelize
+data class Features(
+    val air_conditioner: Boolean,
+    val audio_inputs: Boolean,
+    val awning: Boolean,
+    val backup_camera: Boolean,
+    val beds_full: String,
+    val beds_king: String,
+    val beds_queen: String,
+    val beds_twin: String,
+    val bike_rack: Boolean,
+    val burning_man_friendly: Boolean,
+    val cd_player: Boolean,
+    val ceiling_fan: Boolean,
+    val dining_table: Boolean,
+    val extra_storage: Boolean,
+    val fuel_tank: String,
+    val fuel_type: String,
+    val generator: Boolean,
+    val gray_tank: String,
+    val handicap_accessible: Boolean,
+    val heater: Boolean,
+  //  val hitch_weight: Any,
+    val hot_water_tank: Boolean,
+    val inside_shower: Boolean,
+    val international_travel_allowed: Boolean,
+    val inverter: Boolean,
+    val kitchen_sink: Boolean,
+    val leveling_jacks: Boolean,
+    val microwave: Boolean,
+    val minimum_age: String,
+    val mpg: String,
+    val one_way_rentals: Boolean,
+    val outside_shower: Boolean,
+    val oven: Boolean,
+    val pet_friendly: Boolean,
+    val propane_tank: String,
+    val radio: Boolean,
+    val refrigerator: Boolean,
+    val satellite: Boolean,
+    val sewage_tank: String,
+    val skylight: Boolean,
+    val slide_outs: String,
+    val smoking_allowed: Boolean,
+    val solar: Boolean,
+    val stove: Boolean,
+    val tailgate_friendly: Boolean,
+    val toilet: Boolean,
+    val tow_hitch: Boolean,
+ //   val trailer_weight: Any,
+    val transmission: String,
+    val tv_dvd: Boolean,
+    val washer_dryer: Boolean,
+    val water_tank: String,
+    val wifi: Boolean
+) : Parcelable
